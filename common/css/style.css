@@ -224,6 +224,81 @@ body {
     text-decoration: underline;
 }
 
+#page-head .site-title-container {
+    width: 1040px;
+    height: 53px;
+    padding: 20px 0 ;
+    margin: 0 auto;
+}
+
+#page-head .site-title-container:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#page-head .site-title-container .site-title-logo {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#page-head .site-title-container .site-title-logo a img {
+    width: 211px;
+    height: 45px;
+}
+
+#page-head .site-title-container .site-title-right-container {
+    float: right;
+}
+
+#page-head .site-title-container .site-title-right-container:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#page-head .site-title-container .site-title-right-container .tel-image {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#page-head .site-title-container .site-title-right-container .tel-image li {
+    list-style: none;
+    color: #8D959C;
+    font-size: 11px;
+    text-align: center;
+}
+
+#page-head .site-title-container .site-title-right-container .tel-image li img {
+    width: 210px;
+    height: 28.63px;
+    margin-bottom: 4px;
+}
+
+#page-head .site-title-container .site-title-right-container .sns-link-small {
+    margin: 0;
+    padding: 10px 0 10px 26px;
+    float: right;
+}
+
+#page-head .site-title-container .site-title-right-container .sns-link-small li {
+    list-style: none;
+    float: left;
+    margin-left: 8px;
+}
+
+#page-head .site-title-container .site-title-right-container .sns-link-small li a img {
+    width: 30px;
+    height: 30px;
+}
+
+#page-head .site-title-container .site-title-right-container .sns-link-small li a img:hover {
+    opacity: 0.7;
+}
+
+
 
 
 
