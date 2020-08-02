@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;700&display=swap');
-
 body {
     color: #272727;
     font-family: 'M PLUS 1p', "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 /* [ヘッダー] */
+
 /* 固定メニュー */
 
-#page-head .menu-fix-container　{
+#page-head .menu-fix-container {
     background-color: rgba(255, 255, 255, 0.90);
     height: 60px;
 }
@@ -136,7 +136,6 @@ body {
     content: "";
     clear: both;
     display: block;
-
 }
 
 #page-head .head-navi-container .head-navi .page-suffix {
@@ -174,12 +173,12 @@ body {
 #page-head .head-navi-container .head-navi .head-navi-list-container .head-navi-list ul li {
     float: left;
     list-style: none;
-    border-left: solid 1px #676767; 
+    border-left: solid 1px #676767;
     height: 12px;
     margin: 10px 0;
 }
 
-#page-head .head-navi-container .head-navi .head-navi-list-container .head-navi-list ul li:nth-child(1){
+#page-head .head-navi-container .head-navi .head-navi-list-container .head-navi-list ul li:nth-child(1) {
     border-left: none;
 }
 
@@ -223,7 +222,7 @@ body {
 #page-head .site-title-container {
     width: 1040px;
     height: 53px;
-    padding: 20px 0 ;
+    padding: 20px 0;
     margin: 0 auto;
 }
 
@@ -295,6 +294,7 @@ body {
 }
 
 /* グローバルナビ */
+
 #page-head .global-navi-container {
     width: 1040px;
     height: 40px;
@@ -334,6 +334,17 @@ body {
 
 #page-head .global-navi-container .global-navi ul li:nth-child(1) {
     border-left: solid 1px #DCDDDD;
+    position: relative;
+}
+
+#page-head .global-navi-container .global-navi ul li:nth-child(1):after {
+    content: "▲";
+    font-size: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -28px;
+    left: 45%;
+    color: #181836;
 }
 
 #page-head .global-navi-container .global-navi ul li a {
@@ -350,7 +361,7 @@ body {
     color: #1F286F;
 }
 
-#page-head .global-navi-container .global-navi ul li a span{
+#page-head .global-navi-container .global-navi ul li a span {
     color: #8D959C;
     font-weight: bold;
     font-size: 5px;
@@ -365,7 +376,7 @@ body {
     color: #1F286F;
 }
 
-#page-head .global-navi-container .global-navi ul li:nth-child(1) a{
+#page-head .global-navi-container .global-navi ul li:nth-child(1) a {
     color: #1F286F;
 }
 
@@ -422,12 +433,63 @@ body {
 
 /* サブナビ */
 
-#page-head .sub-navi-container 
+#page-head .sub-navi-container {
+    background-color: #181836;
+}
 
+#page-head .sub-navi-container .sub-navi {
+    max-width: 1040px;
+    min-height: 74px;
+    margin: 0 auto;
+    padding: 10px 10px 4px 10px;
+}
 
+#page-head .sub-navi-container .sub-navi ul {
+    margin: 0;
+    padding: 0;
+}
 
+#page-head .sub-navi-container .sub-navi ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
+#page-head .sub-navi-container .sub-navi ul li {
+    float: left;
+    list-style: none;
+    height: 33px;
+    margin: 0 0 4px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#page-head .sub-navi-container .sub-navi ul li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    margin: 0 0 3px;
+    background-image: url(../images/icon_backslash01_black01.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    vertical-align: middle;
+}
 
+#page-head .sub-navi-container .sub-navi ul li:nth-child(1):before {
+    content: none;
+}
 
+#page-head .sub-navi-container .sub-navi ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 7px;
+    padding: 7px;
+    font-size: 14px;
+}
 
+#page-head .sub-navi-container .sub-navi ul li a:hover {
+    background-color: #FFFFFF;
+    color: #1F286F;
+}
