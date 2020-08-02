@@ -106,22 +106,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-}
-
-#page-head .menu-fix-container .menu-fix .menu-fix-container-right .contact-navi ul li a:after {
-    content: "⟩";
-    font-size: 5px;
-    font-weight: 900;
-    position: absolute;
-    right: 5%;
-    bottom: 40%;
-    color: inherit;
+    background-image: url(../images/icon_arrow01_right_blue01.png);
+    background-repeat: no-repeat;
+    background-size: 5px;
+    background-position: 95% 50%;
 }
 
 #page-head .menu-fix-container .menu-fix .menu-fix-container-right .contact-navi ul li a:hover {
     background-color: #000066;
     color: #FFFFFF;
+    background-image: url(../images/icon_arrow01_right_white01.png);
 }
 
 /* ヘッダーナビ */
@@ -414,24 +408,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-}
-
-#page-head .global-navi-container .contact-navi ul li a:after {
-    content: "⟩";
-    font-size: 5px;
-    font-weight: 900;
-    position: absolute;
-    right: 5%;
-    bottom: 40%;
-    color: inherit;
+    background-image: url(../images/icon_arrow01_right_blue01.png);
+    background-repeat: no-repeat;
+    background-size: 5px;
+    background-position: 95% 50%;
 }
 
 #page-head .global-navi-container .contact-navi ul li a:hover {
     background-color: #000066;
     color: #FFFFFF;
+    background-image: url(../images/icon_arrow01_right_white01.png);
 }
 
+/* サブナビ */
+
+#page-head .sub-navi-container 
 
 
 
