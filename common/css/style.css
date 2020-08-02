@@ -544,3 +544,42 @@ body {
     height: 470px;
     object-fit: cover;
 }
+
+/* パンくずナビ */
+/* 以下、横並びデザインはフレックスボックスを使用。 */
+
+#page-body-main .topic-path-container {
+    border-bottom: 1px solid #E1E1E1;
+}
+
+#page-body-main .topic-path-container .topic-path {
+    width: 1040px;
+    padding: 20px 10px 18px;
+    margin: 0 auto;
+}
+
+#page-body-main .topic-path-container .topic-path ol {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+#page-body-main .topic-path-container .topic-path ol li {
+    font-size: 14px;
+    padding-right: 4px;
+}
+
+#page-body-main .topic-path-container .topic-path ol li:nth-child(2):before {
+    content: ">";
+    padding-right: 4px;
+}
+
+#page-body-main .topic-path-container .topic-path ol li a {
+    color: #36538D;
+    text-decoration: none;
+}
+
+#page-body-main .topic-path-container .topic-path ol li a:hover {
+    text-decoration: underline;
+}
