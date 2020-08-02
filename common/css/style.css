@@ -493,3 +493,43 @@ body {
     background-color: #FFFFFF;
     color: #1F286F;
 }
+
+/* ページボディ */
+/* メインビジュアル部分 */
+
+#page-body-main .main-visual-container {
+    position: relative;
+}
+
+#page-body-main .main-visual-container .page-title-container {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+#page-body-main .main-visual-container .page-title-container .page-title {
+    color: #FFFFFF;
+    font-size: 52px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    margin: 0;
+    line-height: 1.78;
+}
+
+#page-body-main .main-visual-container .page-title-container span {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+    padding-top: 30px;
+    border-top: 1px solid #FFFFFF;
+}
+
+#page-body-main .main-visual-container .main-visual {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
