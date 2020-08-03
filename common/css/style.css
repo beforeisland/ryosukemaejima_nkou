@@ -589,3 +589,162 @@ body {
 #page-body-main .topic-path-container .topic-path ol li a:hover {
     text-decoration: underline;
 }
+
+/* aboutメイン記事群 */
+
+/* aboutスクール */
+
+#page-body-main .about-main .about-school {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+#page-body-main .about-main .about-school h3 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    margin: 70px 0;
+}
+
+#page-body-main .about-main .about-school h4 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 43px 0;
+    position: relative;
+}
+
+#page-body-main .about-main .about-school h4:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -18px;
+    transform: translate(-50%);
+    width: 200px;
+    border-bottom: 1px solid #272727; 
+}
+
+#page-body-main .about-main .about-school p {
+    width: 640px;
+    letter-spacing: 0.6px;
+    margin: 0 auto 70px;
+}
+
+/* 教育方針 */
+
+#page-body-main .about-main .educational-policy {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+#page-body-main .about-main .educational-policy h3 {
+    font-size: 26px;
+    font-weight: 400;
+    background-image: url(../images/line02_black01.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 10px;
+    margin: 0 0 30px 0;
+}
+
+#page-body-main .about-main .educational-policy .educational-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-body-main .about-main .educational-policy .educational-flex-container ul {
+    margin: 20px 0;
+    padding: 0;
+}
+
+#page-body-main .about-main .educational-policy .educational-flex-container ul li {
+    list-style: none;
+    font-size: 19px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+#page-body-main .about-main .educational-policy .educational-flex-container ul li:last-child {
+    margin-bottom: 0;
+}
+
+#page-body-main .about-main .educational-policy .educational-flex-container ul li span {
+    font-size: 24px;
+    padding: 5px 15px 5px 0;
+    margin-right: 15px;
+    border-right: 1px solid #272727;
+    font-weight: 500;
+    display: inline-block;
+}
+
+#page-body-main .about-main .educational-policy .educational-flex-container img {
+    max-width: 630px;
+    height: auto;
+    margin: 10px -156px 0 0;
+}
+
+/* N STANDARDS */
+
+#page-body-main .about-main .educational-policy .n-standards {
+    width: 1040px;
+    margin-bottom: 80px;
+}
+
+#page-body-main .about-main .educational-policy .n-standards a {
+    display: block;
+    width: 66%;
+    margin: 80px auto 0;
+    padding: 30px 40px;
+    background-color: #F7F7F7;
+    border: solid 1px #DDDDDD;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+}
+
+#page-body-main .about-main .educational-policy .n-standards a:hover .n-standards-container .n-standards-text span {
+    opacity: 0.7;
+}
+
+#page-body-main .about-main .educational-policy .n-standards a:hover .n-standards-container .n-standards-image {
+    opacity: 0.7;
+}
+
+#page-body-main .about-main .educational-policy .n-standards a .n-standards-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#page-body-main .about-main .educational-policy .n-standards a .n-standards-container .n-standards-text h4 {
+    font-size: 22px;
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+#page-body-main .about-main .educational-policy .n-standards a .n-standards-container .n-standards-text p {
+    font-size: 16px;
+    margin: 0 0 20px;
+    letter-spacing: 0.6px;
+    text-align: justify;
+}
+
+#page-body-main .about-main .educational-policy .n-standards a .n-standards-container .n-standards-text span {
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#page-body-main .about-main .educational-policy .n-standards a .n-standards-container .n-standards-text span:before {
+    content: "⟩";
+    font-size: 6px;
+    padding-right: 10px;
+}
+
+#page-body-main .about-main .educational-policy .n-standards a .n-standards-container .n-standards-image {
+    width: 160px;
+    height: auto;
+    padding-right: 20px;
+}
+
+
