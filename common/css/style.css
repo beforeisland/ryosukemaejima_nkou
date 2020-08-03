@@ -306,8 +306,8 @@ body {
 #page-head .global-navi-container {
     width: 1040px;
     height: 40px;
-    padding-bottom: 20px;
     margin: 0 auto;
+    padding-bottom: 10px;
     background-color: #FFFFFF;
     position: relative;
     z-index: 2;
@@ -345,17 +345,6 @@ body {
 
 #page-head .global-navi-container .global-navi ul li:nth-child(1) {
     border-left: solid 1px #DCDDDD;
-    position: relative;
-}
-
-#page-head .global-navi-container .global-navi ul li:nth-child(1):after {
-    content: "▲";
-    font-size: 2px;
-    position: absolute;
-    left: 0;
-    bottom: -28px;
-    left: 45%;
-    color: #181836;
 }
 
 #page-head .global-navi-container .global-navi ul li a {
@@ -446,6 +435,7 @@ body {
 
 #page-head .sub-navi-container {
     background-color: #181836;
+    margin-top: 10px;
 }
 
 #page-head .sub-navi-container .sub-navi {
@@ -453,6 +443,16 @@ body {
     min-height: 74px;
     margin: 0 auto;
     padding: 10px 10px 4px 10px;
+    position: relative;
+}
+
+#page-head .sub-navi-container .sub-navi:before {
+    content: "▲";
+    font-size: 2px;
+    position: absolute;
+    top: -8px;
+    left: 85px;
+    color: #181836;
 }
 
 #page-head .sub-navi-container .sub-navi ul {
@@ -506,6 +506,11 @@ body {
 }
 
 /* ページボディ */
+
+#page-body-main {
+    line-height: 1.78;
+}
+
 /* メインビジュアル部分 */
 
 #page-body-main .main-visual-container {
@@ -546,6 +551,7 @@ body {
 }
 
 /* パンくずナビ */
+
 /* 以下、横並びデザインはフレックスボックスを使用。 */
 
 #page-body-main .topic-path-container {
