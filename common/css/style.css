@@ -509,6 +509,7 @@ body {
 
 #page-body-main {
     line-height: 1.78;
+    letter-spacing: 0.6px;
 }
 
 /* メインビジュアル部分 */
@@ -727,7 +728,6 @@ body {
 #page-body-main .about-main .educational-policy .n-standards a .n-standards-container .n-standards-text p {
     font-size: 16px;
     margin: 0 0 20px;
-    letter-spacing: 0.6px;
     text-align: justify;
 }
 
@@ -787,7 +787,6 @@ body {
 #page-body-main .about-main .school-attraction .school-attraction-container .schedule-text p {
     font-size: 16px;
     margin: 0 0 20px;
-    letter-spacing: 0.6px;
 }
 
 #page-body-main .about-main .school-attraction .school-attraction-container .schedule-text .supplement {
@@ -817,3 +816,129 @@ body {
     letter-spacing: 0.6px;
 }
 
+/* 個別記事 */
+
+#page-body-main .about-article-container {
+    margin-bottom: 80px;
+}
+
+#page-body-main .about-article-container .about-container-background {
+    border-top: solid 1px #E2E2E2;
+}
+
+#page-body-main .about-article-container .about-container-background:nth-child(2n+1) {
+    background-color: #F7F7F7;
+}
+
+/* 個別記事・記事別 */
+/* 高卒資格取得のためのBasic Program */
+
+#page-body-main .about-article-container .about-container-background .about-basic-program {
+    width: 1040px;
+    padding: 70px 10px 1px;
+    margin: 0 auto;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program h3 {
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    font-size: 33px;
+    font-weight: 400;
+    text-align: center;
+    position: relative
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program h3:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    width: 200px;
+    border-bottom: 1px solid #272727; 
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program p {
+    margin: 0 0 60px;
+    text-align: center;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container:nth-child(2n+1) {
+    flex-direction: row-reverse;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text {
+    width: 27.404%;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text a:hover {
+    opacity: 0.7;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text .basic-program-tag {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #1C1C1C;
+    margin: 0 0 20px;
+    padding: 5px 10px 0;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: normal;
+    font-weight: 500;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text h4 {
+    font-size: 22px;
+    margin: 0 0 20px;
+    font-weight: 500;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text p {
+    font-size: 16px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text .supplement {
+    font-size: 11px;
+    margin: 0 0 20px;
+}
+
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text .read-more-tag {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0 0 20px;
+    padding: 9px 0 0 16px;
+    letter-spacing: normal;
+    line-height: normal;
+    font-weight: bold;
+    background-image: url(../images/icon_arrow01_right_black01.png);
+    background-repeat: no-repeat;
+    background-size: 5px;
+    background-position: 0 80%;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+#page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text .h4-supplement {
+    font-size: 13px;
+    margin: 0 0 20px;
+}
