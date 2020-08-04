@@ -591,7 +591,9 @@ body {
 }
 
 /* aboutメイン記事群 */
-
+#page-body-main .about-main {
+    padding-bottom: 30px;
+}
 /* aboutスクール */
 
 #page-body-main .about-main .about-school {
@@ -747,4 +749,71 @@ body {
     padding-right: 20px;
 }
 
+/* N高の魅力 */
+
+#page-body-main .about-main .school-attraction {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+#page-body-main .about-main .school-attraction h3 {
+    font-size: 26px;
+    font-weight: 400;
+    background-image: url(../images/line02_black01.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 10px;
+    margin: 0 0 80px 0;
+}
+
+#page-body-main .about-main .school-attraction .school-attraction-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+#page-body-main .about-main .school-attraction .school-attraction-container .schedule-text {
+    width: 47.115%;
+}
+
+#page-body-main .about-main .school-attraction .school-attraction-container .schedule-text h4 {
+    font-size: 25px;
+    margin: 0 0 10px;
+    padding: 0 0 25px;
+    border-bottom: 1px solid #272727;
+    font-weight: 400;
+}
+
+#page-body-main .about-main .school-attraction .school-attraction-container .schedule-text p {
+    font-size: 16px;
+    margin: 0 0 20px;
+    letter-spacing: 0.6px;
+}
+
+#page-body-main .about-main .school-attraction .school-attraction-container .schedule-text .supplement {
+    font-size: 12px;
+}
+
+#page-body-main .about-main .school-attraction .school-attraction-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+#page-body-main .about-main .school-attraction .school-attraction-container .program-experience-text {
+    width: 47.115%;
+}
+
+#page-body-main .about-main .school-attraction .school-attraction-container .program-experience-text h4 {
+    font-size: 25px;
+    margin: 0 0 10px;
+    padding: 0 0 25px;
+    border-bottom: 1px solid #272727;
+    font-weight: 400;
+}
+
+#page-body-main .about-main .school-attraction .school-attraction-container .program-experience-text p {
+    font-size: 16px;
+    margin: 0 0 20px;
+    letter-spacing: 0.6px;
+}
 
