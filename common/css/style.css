@@ -1054,7 +1054,7 @@ body {
 }
 
 #page-body-main .about-article-container .about-container-background .about-it-tool h3 {
-    margin: 0 0 20px;
+    margin: 0 0 80px;
     padding: 0 0 10px;
     font-size: 33px;
     font-weight: 400;
@@ -1126,4 +1126,85 @@ body {
     vertical-align: bottom;
 }
 
+/* 学校行事はネットとリアルで */
+
+#page-body-main .about-article-container .about-container-background .about-school-event {
+    width: 1040px;
+    padding: 70px 10px 1px;
+    margin: 0 auto;
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event h3 {
+    margin: 0 0 80px;
+    padding: 0 0 10px;
+    font-size: 33px;
+    font-weight: 400;
+    text-align: center;
+    position: relative
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event h3:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    width: 200px;
+    border-bottom: 1px solid #272727; 
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event .school-event-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    flex-direction: row-reverse;
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event .school-event-container .school-event-text {
+    width: 27.404%;
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event .school-event-container .school-event-text a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event .school-event-container .school-event-text a:hover {
+    opacity: 0.7;
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event .school-event-container .school-event-text a h4 {
+    font-size: 22px;
+    margin: 0 0 20px;
+    font-weight: 500;
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event .school-event-container .school-event-text a p {
+    font-size: 16px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event .school-event-container .school-event-text a .read-more-tag {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0 0 20px;
+    padding: 9px 0 0 16px;
+    letter-spacing: normal;
+    line-height: normal;
+    font-weight: bold;
+    background-image: url(../images/icon_arrow01_right_black01.png);
+    background-repeat: no-repeat;
+    background-size: 5px;
+    background-position: 0 80%;
+}
+
+#page-body-main .about-article-container .about-container-background .about-school-event .school-event-container img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
 
