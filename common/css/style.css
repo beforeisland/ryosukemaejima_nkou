@@ -592,9 +592,11 @@ body {
 }
 
 /* aboutメイン記事群 */
+
 #page-body-main .about-main {
     padding-bottom: 30px;
 }
+
 /* aboutスクール */
 
 #page-body-main .about-main .about-school {
@@ -625,7 +627,7 @@ body {
     bottom: -18px;
     transform: translate(-50%);
     width: 200px;
-    border-bottom: 1px solid #272727; 
+    border-bottom: 1px solid #272727;
 }
 
 #page-body-main .about-main .about-school p {
@@ -831,6 +833,7 @@ body {
 }
 
 /* 個別記事・記事別 */
+
 /* 高卒資格取得のためのBasic Program */
 
 #page-body-main .about-article-container .about-container-background .about-basic-program {
@@ -855,7 +858,7 @@ body {
     bottom: 0;
     transform: translate(-50%);
     width: 200px;
-    border-bottom: 1px solid #272727; 
+    border-bottom: 1px solid #272727;
 }
 
 #page-body-main .about-article-container .about-container-background .about-basic-program p {
@@ -918,7 +921,6 @@ body {
     margin: 0 0 20px;
 }
 
-
 #page-body-main .about-article-container .about-container-background .about-basic-program .basic-program-container .basic-program-text a .read-more-tag {
     display: inline-block;
     font-size: 13px;
@@ -945,6 +947,7 @@ body {
 }
 
 /* プロフェッショナルによる将来へ繋がるAdvanced Program */
+
 #page-body-main .about-article-container .about-container-background .about-advanced-program {
     width: 1040px;
     padding: 70px 10px 1px;
@@ -967,7 +970,7 @@ body {
     bottom: 0;
     transform: translate(-50%);
     width: 200px;
-    border-bottom: 1px solid #272727; 
+    border-bottom: 1px solid #272727;
 }
 
 #page-body-main .about-article-container .about-container-background .about-advanced-program p {
@@ -1069,7 +1072,7 @@ body {
     bottom: 0;
     transform: translate(-50%);
     width: 200px;
-    border-bottom: 1px solid #272727; 
+    border-bottom: 1px solid #272727;
 }
 
 #page-body-main .about-article-container .about-container-background .about-it-tool .it-tool-container {
@@ -1150,7 +1153,7 @@ body {
     bottom: 0;
     transform: translate(-50%);
     width: 200px;
-    border-bottom: 1px solid #272727; 
+    border-bottom: 1px solid #272727;
 }
 
 #page-body-main .about-article-container .about-container-background .about-school-event .school-event-container {
@@ -1232,7 +1235,7 @@ body {
     bottom: 0;
     transform: translate(-50%);
     width: 200px;
-    border-bottom: 1px solid #272727; 
+    border-bottom: 1px solid #272727;
 }
 
 #page-body-main .about-article-container .about-container-background .about-start-up .start-up-container {
@@ -1313,7 +1316,7 @@ body {
     bottom: 0;
     transform: translate(-50%);
     width: 200px;
-    border-bottom: 1px solid #272727; 
+    border-bottom: 1px solid #272727;
 }
 
 #page-body-main .about-article-container .about-container-background .about-club-activity .club-activity-container {
@@ -1395,7 +1398,7 @@ body {
     bottom: 0;
     transform: translate(-50%);
     width: 200px;
-    border-bottom: 1px solid #272727; 
+    border-bottom: 1px solid #272727;
 }
 
 #page-body-main .about-article-container .about-container-background .about-admission-cource .admission-cource-container {
@@ -1480,7 +1483,7 @@ body {
     bottom: 0;
     transform: translate(-50%);
     width: 200px;
-    border-bottom: 1px solid #272727; 
+    border-bottom: 1px solid #272727;
 }
 
 #page-body-main .about-article-container .about-container-background .about-alliance-school .alliance-school-container {
@@ -1560,5 +1563,197 @@ body {
     height: 300px;
 }
 
+/* N高生からのメッセージ */
 
+#page-body-main .about-article-container .about-container-background .message-link {
+    width: 1040px;
+    padding: 70px 10px 1px;
+    margin: 0 auto;
+}
 
+#page-body-main .about-article-container .about-container-background .message-link ul {
+    margin: 0 0 50px 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#page-body-main .about-article-container .about-container-background .message-link ul li {
+    box-sizing: border-box;
+    flex-basis: 490px;
+    background: url(../images/bg_diagonal01_black01.png);
+    margin-bottom: 30px;
+    padding: 6px;
+    list-style: none;
+}
+
+#page-body-main .about-article-container .about-container-background .message-link ul li:nth-child(-n+2) {
+    height: 145px;
+}
+
+#page-body-main .about-article-container .about-container-background .message-link ul li:nth-child(n+3) {
+    height: 123px;
+}
+
+#page-body-main .about-article-container .about-container-background .message-link ul li a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+    padding: 0 42px 0 26px;
+    box-sizing: border-box;
+    background-image: url(../images/icon_arrow01_right_black01.png);
+    background-repeat: no-repeat;
+    background-size: 5px;
+    background-position: 95% 50%;
+}
+
+#page-body-main .about-article-container .about-container-background .message-link ul li a:hover {
+    opacity: 0.7;
+}
+
+#page-body-main .about-article-container .about-container-background .message-link ul li a h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#page-body-main .about-article-container .about-container-background .message-link ul li a p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/* サブページ */
+
+/* N高詳細 */
+
+#page-body-sub .contact-section-container {
+    background-image: url(../images/footer02_bg01.png)
+}
+
+#page-body-sub .contact-section-container .contact-section {
+    width: 1040px;
+    height: 192px;
+    margin: 0 auto;
+    padding: 35px 10px 20px;
+}
+
+#page-body-sub .contact-section-container .contact-section h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 30px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container {
+    display: flex;
+    justify-content: center;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-left ul {
+    margin: 0;
+    padding: 0;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-left ul li {
+    list-style: none;
+    width: 258px;
+    height: 53px;
+    margin: 0 0 14px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-left ul li:nth-child(1) {
+    background-image: url(../images/icon_book01_black01.png);
+    background-repeat: no-repeat;
+    background-size: 27px;
+    background-position: 8% 50%;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-left ul li:nth-child(2) {
+    background-image: url(../images/icon_balloon01_black01.png);
+    background-repeat: no-repeat;
+    background-size: 27px;
+    background-position: 8% 50%;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-left ul li:hover {
+    opacity: 0.7;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-left ul li a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 16px 24px 7px 18px;
+    color: #1C1C1C;
+    text-decoration: none;
+    background-image: url(../images/icon_arrow01_right_black01.png);
+    background-repeat: no-repeat;
+    background-size: 6px;
+    background-position: 95% 50%;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 0 40px;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-right .tel-image-link:hover {
+    opacity: 0.7;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-right .tel-image-link img {
+    width: 250px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-right .tel-time {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-right .web-contact {
+    display: block;
+    width: 212px;
+    height: 40px;
+    margin-left: 38px;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    letter-spacing: 0.4pt;
+    line-height: 1.4;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-right .web-contact a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-image: url(../images/icon_arrow01_right_white01.png);
+    background-repeat: no-repeat;
+    background-size: 5px;
+    background-position: 95% 50%;
+}
+
+#page-body-sub .contact-section-container .contact-section .contact-list-container .contact-list-right .web-contact a:hover {
+    text-decoration: underline;
+}
