@@ -1884,6 +1884,8 @@ body {
 
 #page-foot {
     background-color: #F8F8F8;
+    letter-spacing: 0.4pt;
+    line-height: 1.4;
 }
 
 #page-foot .footer-menu-container {
@@ -1897,7 +1899,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #page-foot .footer-menu-container .footer-top-container ul {
@@ -1939,4 +1941,56 @@ body {
     height: 100%;
 }
 
+/* ローカルナビ */
+
+#page-foot .footer-menu-container .local-navi-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-foot .footer-menu-container .local-navi-container .local-navi-list {
+    flex-basis: 20%;
+    margin-left: 20px;   
+}
+
+#page-foot .footer-menu-container .local-navi-container .local-navi-list:nth-child(1) {
+    margin: -22px 0 0 0;
+}
+
+#page-foot .footer-menu-container .local-navi-container .local-navi-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+#page-foot .footer-menu-container .local-navi-container .local-navi-list ul:nth-child(2) {
+    margin-top: 18px;
+    padding-top: 22px;
+    border-top: solid 1px #C9C9C9;
+}
+
+#page-foot .footer-menu-container .local-navi-container .local-navi-list ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#page-foot .footer-menu-container .local-navi-container .local-navi-list ul li:nth-child(1) a {
+    color: #000066;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#page-foot .footer-menu-container .local-navi-container .local-navi-list ul li:nth-child(1) a span {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+#page-foot .footer-menu-container .local-navi-container .local-navi-list ul li a {
+    color: #272727;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#page-foot .footer-menu-container .local-navi-container .local-navi-list ul li a:hover {
+    text-decoration: underline;
+}
 
