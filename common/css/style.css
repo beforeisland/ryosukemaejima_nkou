@@ -2076,4 +2076,34 @@ body {
     font-weight: 300;
 }
 
+/* コピーライト部分実装 */
+#page-foot .copyright-container {
+    background-color: #1A1A1A;
+}
+
+#page-foot .copyright-container .copyright-area {
+    box-sizing: border-box;
+    width: 1060px;
+    margin: 0 auto;
+    padding: 18px 10px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-foot .copyright-container .copyright-area a {
+    color: #999999;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+#page-foot .copyright-container .copyright-area a:hover {
+    text-decoration: underline;
+}
+
+#page-foot .copyright-container .copyright-area small {
+    color: #999999;
+    font-size: 11px;
+}
+
+
 
