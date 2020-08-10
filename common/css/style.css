@@ -1816,7 +1816,6 @@ body {
     text-align: center;
 }
 
-
 #page-body-sub .another-education-link {
     width: 1010px;
     margin: 0 auto;
@@ -1895,6 +1894,7 @@ body {
 }
 
 /* フッタートップメニュー */
+
 #page-foot .footer-menu-container .footer-top-container {
     display: flex;
     justify-content: space-between;
@@ -1950,7 +1950,7 @@ body {
 
 #page-foot .footer-menu-container .local-navi-container .local-navi-list {
     flex-basis: 20%;
-    margin-left: 20px;   
+    margin-left: 20px;
 }
 
 #page-foot .footer-menu-container .local-navi-container .local-navi-list:nth-child(1) {
@@ -2077,6 +2077,7 @@ body {
 }
 
 /* コピーライト部分実装 */
+
 #page-foot .copyright-container {
     background-color: #1A1A1A;
 }
@@ -2104,6 +2105,3 @@ body {
     color: #999999;
     font-size: 11px;
 }
-
-
-
